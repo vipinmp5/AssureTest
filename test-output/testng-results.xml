@@ -1,333 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="API Testing Suite" duration-ms="3459" started-at="2019-04-08T21:15:04Z" finished-at="2019-04-08T21:15:07Z">
+  <suite name="API Testing Suite" duration-ms="4362" started-at="2019-04-28T19:41:13Z" finished-at="2019-04-28T19:41:17Z">
     <groups>
     </groups>
-    <test name="APITest" duration-ms="3459" started-at="2019-04-08T21:15:04Z" finished-at="2019-04-08T21:15:07Z">
-      <class name="com.lendico.test.GeneratePlanTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.lendico.test.GeneratePlanTest@4bec1f0c]" name="setup" is-config="true" duration-ms="400" started-at="2019-04-09T02:45:04Z" finished-at="2019-04-09T02:45:04Z">
+    <test name="APITest" duration-ms="4362" started-at="2019-04-28T19:41:13Z" finished-at="2019-04-28T19:41:17Z">
+      <class name="com.assure.test.AssureAcceptanceTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.assure.test.AssureAcceptanceTest@3159c4b8]" name="setup" is-config="true" duration-ms="3594" started-at="2019-04-29T01:11:13Z" finished-at="2019-04-29T01:11:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="verifyAnnuityTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lendico.test.GeneratePlanTest@4bec1f0c]" name="verifyAnnuityTest" duration-ms="1887" started-at="2019-04-09T02:45:04Z" data-provider="TestData" finished-at="2019-04-09T02:45:06Z">
+        <test-method status="PASS" signature="verifyCanRelistAcceptanceTest(java.lang.String, java.lang.String)[pri:0, instance:com.assure.test.AssureAcceptanceTest@3159c4b8]" name="verifyCanRelistAcceptanceTest" duration-ms="80" started-at="2019-04-29T01:11:17Z" data-provider="TestData" finished-at="2019-04-29T01:11:17Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[5000]]>
+                <![CDATA[CanRelist]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[5.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[24]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[2018-01-01]]>
+                <![CDATA[true]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAnnuityTest -->
-        <test-method status="PASS" signature="verifyAnnuityTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lendico.test.GeneratePlanTest@4bec1f0c]" name="verifyAnnuityTest" duration-ms="103" started-at="2019-04-09T02:45:06Z" data-provider="TestData" finished-at="2019-04-09T02:45:06Z">
+        </test-method> <!-- verifyCanRelistAcceptanceTest -->
+        <test-method status="PASS" signature="verifyGalleryDescriptionAcceptanceTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.assure.test.AssureAcceptanceTest@3159c4b8]" name="verifyGalleryDescriptionAcceptanceTest" duration-ms="24" started-at="2019-04-29T01:11:17Z" data-provider="TestData" finished-at="2019-04-29T01:11:17Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[6000]]>
+                <![CDATA[Name]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[5.0]]>
+                <![CDATA[Gallery]]>
               </value>
             </param>
             <param index="2">
               <value>
-                <![CDATA[24]]>
+                <![CDATA[Promotions]]>
               </value>
             </param>
             <param index="3">
               <value>
-                <![CDATA[2018-01-01]]>
+                <![CDATA[Description]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[2x larger image]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAnnuityTest -->
-        <test-method status="PASS" signature="verifyAnnuityTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lendico.test.GeneratePlanTest@4bec1f0c]" name="verifyAnnuityTest" duration-ms="65" started-at="2019-04-09T02:45:06Z" data-provider="TestData" finished-at="2019-04-09T02:45:06Z">
+        </test-method> <!-- verifyGalleryDescriptionAcceptanceTest -->
+        <test-method status="PASS" signature="verifyNameAcceptanceTest(java.lang.String, java.lang.String)[pri:0, instance:com.assure.test.AssureAcceptanceTest@3159c4b8]" name="verifyNameAcceptanceTest" duration-ms="2" started-at="2019-04-29T01:11:17Z" data-provider="TestData" finished-at="2019-04-29T01:11:17Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[10000]]>
+                <![CDATA[Name]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[5.2]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[36]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[2019-01-01]]>
+                <![CDATA[Carbon credits]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAnnuityTest -->
-        <test-method status="PASS" signature="verifyAnnuityTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lendico.test.GeneratePlanTest@4bec1f0c]" name="verifyAnnuityTest" duration-ms="59" started-at="2019-04-09T02:45:06Z" data-provider="TestData" finished-at="2019-04-09T02:45:06Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[25000]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[6.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[60]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[2017-01-05]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyAnnuityTest -->
-        <test-method status="PASS" signature="verifyPrincipalSumTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lendico.test.GeneratePlanTest@4bec1f0c]" name="verifyPrincipalSumTest" duration-ms="32" started-at="2019-04-09T02:45:06Z" data-provider="TestData" finished-at="2019-04-09T02:45:06Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[5000]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[5.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[24]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[2018-01-01]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPrincipalSumTest -->
-        <test-method status="PASS" signature="verifyPrincipalSumTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lendico.test.GeneratePlanTest@4bec1f0c]" name="verifyPrincipalSumTest" duration-ms="32" started-at="2019-04-09T02:45:06Z" data-provider="TestData" finished-at="2019-04-09T02:45:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[6000]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[5.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[24]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[2018-01-01]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPrincipalSumTest -->
-        <test-method status="PASS" signature="verifyPrincipalSumTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lendico.test.GeneratePlanTest@4bec1f0c]" name="verifyPrincipalSumTest" duration-ms="84" started-at="2019-04-09T02:45:07Z" data-provider="TestData" finished-at="2019-04-09T02:45:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[10000]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[5.2]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[36]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[2019-01-01]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPrincipalSumTest -->
-        <test-method status="PASS" signature="verifyPrincipalSumTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lendico.test.GeneratePlanTest@4bec1f0c]" name="verifyPrincipalSumTest" duration-ms="35" started-at="2019-04-09T02:45:07Z" data-provider="TestData" finished-at="2019-04-09T02:45:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[25000]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[6.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[60]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[2017-01-05]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPrincipalSumTest -->
-        <test-method status="PASS" signature="verifyPrincipleInterestCalculationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lendico.test.GeneratePlanTest@4bec1f0c]" name="verifyPrincipleInterestCalculationTest" duration-ms="55" started-at="2019-04-09T02:45:07Z" data-provider="TestData" finished-at="2019-04-09T02:45:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[5000]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[5.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[24]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[2018-01-01]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPrincipleInterestCalculationTest -->
-        <test-method status="PASS" signature="verifyPrincipleInterestCalculationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lendico.test.GeneratePlanTest@4bec1f0c]" name="verifyPrincipleInterestCalculationTest" duration-ms="52" started-at="2019-04-09T02:45:07Z" data-provider="TestData" finished-at="2019-04-09T02:45:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[6000]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[5.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[24]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[2018-01-01]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPrincipleInterestCalculationTest -->
-        <test-method status="PASS" signature="verifyPrincipleInterestCalculationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lendico.test.GeneratePlanTest@4bec1f0c]" name="verifyPrincipleInterestCalculationTest" duration-ms="47" started-at="2019-04-09T02:45:07Z" data-provider="TestData" finished-at="2019-04-09T02:45:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[10000]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[5.2]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[36]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[2019-01-01]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPrincipleInterestCalculationTest -->
-        <test-method status="PASS" signature="verifyPrincipleInterestCalculationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lendico.test.GeneratePlanTest@4bec1f0c]" name="verifyPrincipleInterestCalculationTest" duration-ms="76" started-at="2019-04-09T02:45:07Z" data-provider="TestData" finished-at="2019-04-09T02:45:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[25000]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[6.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[60]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[2017-01-05]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyPrincipleInterestCalculationTest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.lendico.test.GeneratePlanTest@4bec1f0c]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-04-09T02:45:07Z" finished-at="2019-04-09T02:45:07Z">
+        </test-method> <!-- verifyNameAcceptanceTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.assure.test.AssureAcceptanceTest@3159c4b8]" name="afterTest" is-config="true" duration-ms="0" started-at="2019-04-29T01:11:17Z" finished-at="2019-04-29T01:11:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-      </class> <!-- com.lendico.test.GeneratePlanTest -->
+      </class> <!-- com.assure.test.AssureAcceptanceTest -->
     </test> <!-- APITest -->
   </suite> <!-- API Testing Suite -->
 </testng-results>
