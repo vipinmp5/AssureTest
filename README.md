@@ -1,6 +1,6 @@
 # AssureTest
 
-Assure Test is Rest-Assured based Acceptance Test For API .
+Assure Test is Rest-Assured based Acceptance Test For Rest API .
 
 ## Description
 
